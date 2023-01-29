@@ -1,4 +1,4 @@
-import { ApolloServer } from 'apollo-server';
+let {ApolloServer} = require('apollo-server')
 
 import typeDefs from './schema';
 import resolvers from './resolvers';
