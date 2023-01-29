@@ -1,8 +1,8 @@
-console.log('Hello world from client-side JS!')
+console.log('Hello world from client-sh!t js t T')
 import { ApolloServer } from 'apollo-server';
 
-import typeDefs from './schema';
-import resolvers from './resolvers';
+import typeDefs from '../src/schema';
+import resolvers from '../src/resolvers';
 
 const server = new ApolloServer({
     typeDefs: typeDefs,
